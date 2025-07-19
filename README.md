@@ -1,22 +1,21 @@
-# Python Website Blocker: Stay Focused, Effortlessly 🎯
+# Python Website Blocker: Stay Focused, Effortlessly 
 
 This **Python-powered website blocker** is your go-to tool for a more focused and productive online experience. Designed for simplicity and efficiency, it empowers users to easily filter distracting websites and control their digital environment without complex configurations.
 
 ---
 
-## How It Works: It's Smart and Safe 🔒
+## How to use
 
-At its core, this script cleverly tweaks your system's **hosts file** – but don't worry, it's all **temporary and non-persistent**. When you flip the "on" switch, it subtly redirects those distracting website requests, effectively blocking them. What's neat is how lightweight it is. Your system's settings automatically snap back to normal once you end the blocking session. You're always in charge, and those changes only stick around while the script is actively running.
+The script is simple to understand and use. It can be utilized to its full functionality without opening/editing source code. Isn't that great?
 
+Here is how you achieved this :
+
+The project mantains a separate file for list of URLs/Domains, so anytime you want to add any new URL/s or remove existing URL/s you just need to edit that text file and add a new URL on a new line and the script is ready for use.
+The script will automatically detect underlying Operting System to determine the host file's directory. So you don't need to update the source code based on your OS and it will be taken care smoothly.
+Once the script is executed successfully and the prompt is accepted, unless and until you want the filtering to don't work, the filtering will continue to work.
+Even if by mistake the cancel command was send to script for termination of filtering, a prompt will be displayed to confirm the disable action.
+On disabling the content filtering, normal functioning on your browser will apply automatically and you dont need to verify that its working or not.
 ---
-
-## What You Get: Benefits & Features ✅
-
-* **Instant Control:** Want to block a site? Just run the script, answer a quick "yes," and you're good to go. Need to unblock? Just as easy.
-* **Customizable Blocklist:** Manage your list of blocked URLs and domains in a plain text file (`urllist.txt`). Update it anytime, and your changes are recognized immediately by the script.
-* **Universal Compatibility:** Works seamlessly across **Windows, macOS, and Linux distributions**, automatically adapting to your operating system.
-* **Zero System Impact:** All changes to your `hosts` file are temporary. Your internet access returns to normal as soon as the script is terminated or you choose to disable filtering.
-* **Safe & User-Friendly:** We've even added a little confirmation step if you try to disable blocking, just to make sure you don't accidentally cut off your focus mid-task.
 
 ---
 
