@@ -6,10 +6,6 @@ This **Python-powered website blocker** is your go-to tool for a more focused an
 
 ## How to use
 
-The script is simple to understand and use. It can be utilized to its full functionality without opening/editing source code. Isn't that great?
-
-Here is how you achieved this :
-
 The project keeps a separate file for the list of URLs/Domains, so whenever you wish to add new URLs or remove current ones, you simply need to modify that text file by adding a new URL on a new line, and the script will be ready to use. The script will automatically identify the underlying operating system to locate the host file's directory, eliminating the need for you to alter the source code according to your OS; this process is handled seamlessly. Once the script runs successfully and the prompt is acknowledged, the filtering will continue to operate until you choose to disable it. Even if the cancel command is mistakenly sent to terminate the filtering process, a prompt will appear to verify the disable action. Upon disabling the content filtering, your browser will automatically revert to normal functionality, and you won’t have to check whether it is working or not.
 
 
