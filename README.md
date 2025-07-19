@@ -1,41 +1,47 @@
-Python-Website-Blocker
-Overview
-This project is a website blocker build using python. This script will help its users to filter out the website that they don't want to access. The app once executed will ask users to accept if they want to enable the filtering mode and on accepting the prompt(Y/y or N/n), default content filtering will be enabled till the user wants to disable it. User can any time press cancel on app and the filtering will be automatically removed. If no filtering is required at any given point in time then the execution of script can be avoided.
+# Python Website Blocker: Stay Focused, Effortlessly 🎯
 
-The project also mantains a list of URLs/Domains in a separate file that the user wants to block by enabling filtering mode. This simple text file can be updated anytime and script will automatically fetch the details from the file and filter the websites provided.
+This **Python-powered website blocker** is your go-to tool for a more focused and productive online experience. Designed for simplicity and efficiency, it empowers users to easily filter distracting websites and control their digital environment without complex configurations.
 
-Pre-requisites
-Python 3.x installed on machine
-The script is currently working on Windows & Mac Operating Systems and all Linux Distributions.
-File containing list of URLs/Domains must be present in same folder as application.
-Script is required to be executed in admin mode(see details in How to Use section).
-How to Use
-The script is simple to understand and use. It can be utilized to its full functionality without opening/editing source code. Isn't that great?
+---
 
-Here is how you achieved this :
+## How It Works: It's Smart and Safe 🔒
 
-The project mantains a separate file for list of URLs/Domains, so anytime you want to add any new URL/s or remove existing URL/s you just need to edit that text file and add a new URL on a new line and the script is ready for use.
-The script will automatically detect underlying Operting System to determine the host file's directory. So you don't need to update the source code based on your OS and it will be taken care smoothly.
-Once the script is executed successfully and the prompt is accepted, unless and until you want the filtering to don't work, the filtering will continue to work.
-Even if by mistake the cancel command was send to script for termination of filtering, a prompt will be displayed to confirm the disable action.
-On disabling the content filtering, normal functioning on your browser will apply automatically and you dont need to verify that its working or not.
-1. Getting Started
-In order to start utilizing the app, you just need to clone this repository.
+At its core, this script cleverly tweaks your system's **hosts file** – but don't worry, it's all **temporary and non-persistent**. When you flip the "on" switch, it subtly redirects those distracting website requests, effectively blocking them. What's neat is how lightweight it is. Your system's settings automatically snap back to normal once you end the blocking session. You're always in charge, and those changes only stick around while the script is actively running.
 
-git clone https://github.com/AzharAnwar9/Python-Website-Blocker/
-Once cloned successfully, change directory to Python-Website-Blocker/.
+---
 
-2. Updating the blocklist in urllist.txt
-Open the urllist.txt file and starting adding urls domain you want to filter from accessing. Make sure you don't change the filename, else you will have to edit the respective filename is source code as well due its dependency on blocklist.
+## What You Get: Benefits & Features ✅
 
-3. Filter is ready!!
-Once the blocklist is ready, you are ready to use the app. Execute the script is admin mode(root user) as it is going to edit your host file which requires special privileges. Dont worry the changes will be temporary and will be reflecting only on execution of script. Once the filtering is disabled the host file will return to its normal state.
+* **Instant Control:** Want to block a site? Just run the script, answer a quick "yes," and you're good to go. Need to unblock? Just as easy.
+* **Customizable Blocklist:** Manage your list of blocked URLs and domains in a plain text file (`urllist.txt`). Update it anytime, and your changes are recognized immediately by the script.
+* **Universal Compatibility:** Works seamlessly across **Windows, macOS, and Linux distributions**, automatically adapting to your operating system.
+* **Zero System Impact:** All changes to your `hosts` file are temporary. Your internet access returns to normal as soon as the script is terminated or you choose to disable filtering.
+* **Safe & User-Friendly:** We've even added a little confirmation step if you try to disable blocking, just to make sure you don't accidentally cut off your focus mid-task.
 
-python websiteblocker.py
-If you face any issues while utilizing this simple project, you can raise it in issues section in this repository.
-Pull Requests
-If you have any valuable suggestions & changes to add, feel free to make a pull request. Your contribution to the project is as important and appriciated as the inital release and I will make sure these are implemented with validation.
+---
 
-Future Updates
-Enabling the app to whitelist certain URLs and filter every other access(allow few block all strategy - Implicit Deny/White Listing)
-Enabling maintenance mode(addition/removal of filtering URLs) & administration in runtime
+## Get Started in 3 Steps! 🚀
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/Harshitha205/Website-Blocker-using-python.git](https://github.com/Harshitha205/Website-Blocker-using-python.git)
+    cd Website-Blocker-using-python/
+    ```
+2.  **Build Your Blocklist:** Open up `urllist.txt` and simply list the websites you want to block, one domain per line.
+3.  **Run as Administrator/Root:** Because it's modifying a system file, you'll need to run the script with **administrator or root privileges**. But remember, these changes are only for the moment!
+    ```bash
+    python websiteblocker.py
+    ```
+    Confirm when it asks, and then dive into a wonderfully distraction-free Browse session! If you hit any snags, don't hesitate to check out the Issues section right here on GitHub.
+
+---
+
+## Contribute & Evolve 💡
+
+We highly value community contributions! If you have suggestions or improvements, feel free to open a Pull Request. Your input helps make this tool even better. Future plans include features like whitelisting (blocking all except specified URLs) and in-application blocklist administration.
+
+---
+
+## Author
+
+[Your GitHub Username (e.g., Harshitha205)](https://github.com/Harshitha205/)
