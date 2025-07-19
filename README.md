@@ -25,16 +25,3 @@ The project keeps a separate file for the list of URLs/Domains, so whenever you 
     ```bash
     python websiteblocker.py
     ```
-    Confirm when it asks, and then dive into a wonderfully distraction-free Browse session! If you hit any snags, don't hesitate to check out the Issues section right here on GitHub.
-
----
-
-## Contribute & Evolve 💡
-
-We highly value community contributions! If you have suggestions or improvements, feel free to open a Pull Request. Your input helps make this tool even better. Future plans include features like whitelisting (blocking all except specified URLs) and in-application blocklist administration.
-
----
-
-## Author
-
-[Your GitHub Username (e.g., Harshitha205)](https://github.com/Harshitha205/)
