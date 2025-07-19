@@ -10,11 +10,9 @@ The script is simple to understand and use. It can be utilized to its full funct
 
 Here is how you achieved this :
 
-The project mantains a separate file for list of URLs/Domains, so anytime you want to add any new URL/s or remove existing URL/s you just need to edit that text file and add a new URL on a new line and the script is ready for use.
-The script will automatically detect underlying Operting System to determine the host file's directory. So you don't need to update the source code based on your OS and it will be taken care smoothly.
-Once the script is executed successfully and the prompt is accepted, unless and until you want the filtering to don't work, the filtering will continue to work.
-Even if by mistake the cancel command was send to script for termination of filtering, a prompt will be displayed to confirm the disable action.
-On disabling the content filtering, normal functioning on your browser will apply automatically and you dont need to verify that its working or not.
+The project keeps a separate file for the list of URLs/Domains, so whenever you wish to add new URLs or remove current ones, you simply need to modify that text file by adding a new URL on a new line, and the script will be ready to use. The script will automatically identify the underlying operating system to locate the host file's directory, eliminating the need for you to alter the source code according to your OS; this process is handled seamlessly. Once the script runs successfully and the prompt is acknowledged, the filtering will continue to operate until you choose to disable it. Even if the cancel command is mistakenly sent to terminate the filtering process, a prompt will appear to verify the disable action. Upon disabling the content filtering, your browser will automatically revert to normal functionality, and you won’t have to check whether it is working or not.
+
+
 ---
 
 ---
